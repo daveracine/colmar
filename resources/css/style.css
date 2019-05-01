@@ -23,13 +23,11 @@ a {
 
 .column-large {
   width: 60%;
-  padding: 2rem 1.5rem 0 2rem;
   border: 1px solid blue;
 }
 
 .column-small {
   width: 40%;
-  padding-top: 2rem;
   border: 1px solid red;
 }
 
@@ -181,4 +179,18 @@ nav li a {
 
 .course-text p {
   padding-bottom: 1.5rem;
+}
+
+/* Thesis */
+
+.thesis h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.thesis-container {
+  display: inline-flex;
+  padding-left: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
