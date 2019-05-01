@@ -57,6 +57,10 @@ a {
   background-color: gray;
 }
 
+.large-image {
+  padding: 2rem 1.5rem;
+}
+
 /* Nav */
 
 nav {
@@ -107,6 +111,7 @@ nav li a {
 }
 
 
+
 /* Information */
 
 .information {
@@ -120,18 +125,21 @@ nav li a {
   max-height: 100%;
 }
 
-.boxes {
-  position: relative;
-  top: -1rem;
+.info-text {
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
 }
 
-.info h3 {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
+.info-text h3 {
+  padding-bottom: 1.5rem;
 }
 
-.info p {
-  margin-bottom: 2rem;
+.information .column-small {
+  padding-top: 1rem;
+}
+
+.content {
+  line-height: 1.75rem;
 }
 
 
@@ -185,12 +193,40 @@ nav li a {
 
 .thesis h2 {
   text-align: center;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 .thesis-container {
   display: inline-flex;
+  vertical-align: top;
+}
+
+.thesis-container video {
   padding-left: 1.5rem;
-  align-items: flex-start;
-  justify-content: flex-start;
+}
+/*
+.thesis-text {
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+*/
+
+/* Footer */
+
+footer {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+footer .copyright {
+  padding: 1rem 0 3rem 1.5rem;
+}
+
+footer .terms {
+  padding: 1rem 0.5rem 3rem 0;
+}
+
+.terms a {
+  padding-right: 1rem;
 }
