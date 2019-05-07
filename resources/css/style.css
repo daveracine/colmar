@@ -133,6 +133,14 @@ button {
   background-color: white;
 }
 
+.information .column-small {
+  border-left: 1px solid lightgray;
+}
+
+.information .campus.box {
+  border-top: 1px solid lightgray;
+}
+
 .information img {
   max-width: 100%;
   max-height: 100%;
@@ -223,17 +231,16 @@ button {
 .thesis-container .column-large {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  border: 1px solid blue;
 }
 
-.thesis-container video {
-  vertical-align: top;
-  margin-left: 1.5rem;
+.video-container {
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .thesis-text {
-  border: 1px solid red;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-bottom: 2rem;
