@@ -1,16 +1,19 @@
 /* Universal Styles */
 
 html {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
+  color: #313740;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 h4 {
@@ -19,16 +22,15 @@ h4 {
 
 a {
   text-decoration: none;
+  color: #313740;
 }
 
 .column-large {
   width: 60%;
-  border: 1px solid blue;
 }
 
 .column-small {
   width: 40%;
-  border: 1px solid red;
 }
 
 .box {
@@ -54,7 +56,7 @@ a {
 }
 
 .gray {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .large-image {
@@ -72,12 +74,14 @@ nav {
   position: fixed;
   z-index: 100;
   background-color: white;
+  border-bottom: 1px solid gray;
 }
 
 .logo {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
+  font-size: 1.15rem;
 }
 
 #title {
@@ -93,10 +97,6 @@ nav li {
   margin-left: 1rem;
 }
 
-nav li a {
-  color: black;
-}
-
 /* Banner */
 
 .banner {
@@ -110,12 +110,25 @@ nav li a {
   max-height: 100%;
 }
 
+.banner .column-small {
+}
+
+.banner h4 {
+  margin: 2rem 0;
+}
+
+button {
+  color: white;
+  background-color: #313740;
+  width: 16rem;
+  height: 2rem;
+}
 
 
 /* Information */
 
 .information {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   background-color: white;
 }
@@ -140,6 +153,10 @@ nav li a {
 
 .content {
   line-height: 1.75rem;
+}
+
+.information a {
+  color: blue;
 }
 
 
@@ -168,7 +185,6 @@ nav li a {
 
 .course {
   margin: 1rem;
-  border: 1px solid red;
   background-color: white;
 }
 .course img {
@@ -177,12 +193,16 @@ nav li a {
 }
 
 .course-text {
-  padding-left: 1rem;
+  padding-left: 1rem
 }
 
 .course-text h4 {
   padding-top: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.course-text h5 {
+  padding-bottom: 1rem;
 }
 
 .course-text p {
@@ -197,19 +217,31 @@ nav li a {
 }
 
 .thesis-container {
-  display: inline-flex;
-  vertical-align: top;
+  display: flex;
+}
+
+.thesis-container .column-large {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid blue;
 }
 
 .thesis-container video {
-  padding-left: 1.5rem;
+  vertical-align: top;
+  margin-left: 1.5rem;
 }
-/*
+
 .thesis-text {
+  border: 1px solid red;
+  padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-bottom: 2rem;
 }
-*/
+
+.thesis-text h4 {
+  margin-bottom: 0.5rem;
+}
 
 /* Footer */
 
@@ -217,6 +249,7 @@ footer {
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
+  border-top: 1px solid lightgray;
 }
 
 footer .copyright {
