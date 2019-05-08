@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 16px;
   color: #313740;
 }
@@ -81,7 +81,12 @@ nav {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 2rem;
 }
 
 #title {
@@ -121,7 +126,8 @@ button {
   color: white;
   background-color: #313740;
   width: 16rem;
-  height: 2rem;
+  font-size: 1rem;
+  padding: 0.5rem 0;
 }
 
 
