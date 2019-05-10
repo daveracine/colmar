@@ -25,6 +25,11 @@ a {
   color: #313740;
 }
 
+a:hover {
+  color: #1a63d8;
+  text-decoration: underline;
+}
+
 .column-large {
   width: 60%;
 }
@@ -56,7 +61,7 @@ a {
 }
 
 .gray {
-  background-color: lightgray;
+  background-color: #d7e2f2;
 }
 
 .large-image {
@@ -73,7 +78,7 @@ nav {
   align-items: center;
   position: fixed;
   z-index: 100;
-  background-color: white;
+  background-color: #b0b8c4;
   border-bottom: 1px solid gray;
 }
 
@@ -90,7 +95,7 @@ nav {
 }
 
 #title {
-  color: gray;
+  color: #1a63d8;
 }
 
 nav ul {
@@ -100,6 +105,10 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 1rem;
+}
+
+nav a {
+  color: black;
 }
 
 /* Banner */
@@ -128,6 +137,10 @@ button {
   width: 16rem;
   font-size: 1rem;
   padding: 0.5rem 0;
+}
+
+button:hover {
+  background-color: #1a63d8;
 }
 
 
@@ -201,6 +214,11 @@ button {
   margin: 1rem;
   background-color: white;
 }
+
+.course:hover {
+  opacity: 0.8;
+}
+
 .course img {
   max-width: 100%;
   max-height: 100%;
@@ -263,6 +281,8 @@ footer {
   display: inline-flex;
   justify-content: space-between;
   border-top: 1px solid lightgray;
+  background-color: #b0b8c4;
+  color: #313740;
 }
 
 footer .copyright {
